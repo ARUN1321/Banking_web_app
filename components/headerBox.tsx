@@ -1,4 +1,4 @@
-export const HeaderBox = ({
+const HeaderBox = ({
   type = "title",
   title,
   user,
@@ -15,3 +15,5 @@ export const HeaderBox = ({
     <p className="header-box-subtext">{subtext}</p>
   </div>;
 };
+
+export default HeaderBox
